@@ -39,7 +39,7 @@ const Summary = () => {
       );
       window.location = response.data.url;
     } catch (error) {
-      toast("Something unexpected happend");
+      toast.error("Something unexpected happend");
     }
   };
 
